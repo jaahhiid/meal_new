@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:meal_new/dummy_data.dart';
-import 'package:meal_new/category_grid_item.dart';
-import './meals.dart';
-import 'category.dart';
-import './meal.dart';
+import 'package:meal_new/data/dummy_data.dart';
+import 'package:meal_new/widgets/category_grid_item.dart';
+import 'meals.dart';
+import '../models/category.dart';
+import '../models/meal.dart';
 
 class CategoriesScreen extends StatelessWidget {
   const CategoriesScreen({super.key, required this.onToggleFavorite, required this.availableMeals});

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:meal_new/main.dart';
-import './meal.dart';
+import '../models/meal.dart';
 
 class MealDetailScreen extends StatelessWidget {
   const MealDetailScreen(
